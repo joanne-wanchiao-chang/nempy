@@ -146,7 +146,7 @@ class DBManager:
             table_primary_keys=['SETTLEMENTDATE', 'REGIONID'], con=self.con)
         self.DUDETAILSUMMARY = InputsStartAndEnd(
             table_name='DUDETAILSUMMARY', table_columns=['DUID', 'START_DATE', 'END_DATE', 'DISPATCHTYPE',
-                                                         'CONNECTIONPOINTID', 'REGIONID', 'TRANSMISSIONLOSSFACTOR',
+                                                         'CONNECTIONPOINTID', 'REGIONID', 'PARTICIPANTID', 'TRANSMISSIONLOSSFACTOR',
                                                          'DISTRIBUTIONLOSSFACTOR', 'SCHEDULE_TYPE', 'SECONDARY_TLF'],
             table_primary_keys=['START_DATE', 'DUID'], con=self.con)
         self.DUDETAIL = InputsByEffectiveDateVersionNo(
