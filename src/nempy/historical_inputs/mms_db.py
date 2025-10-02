@@ -466,7 +466,7 @@ class _MMSTable:
             'LOWER1SECROP': 'REAL', 'LOWER60SECROP': 'REAL', 'LOWER5MINROP': 'REAL', 'LOWERREGROP': 'REAL',
             'FROM_REGION_TLF': 'REAL', 'TO_REGION_TLF': 'REAL', 'ICTYPE': 'TEXT', 'LINKID': 'TEXT',
             'FROMREGION': 'TEXT', 'TOREGION': 'TEXT', 'REGISTEREDCAPACITY': 'REAL', 'LHSFACTOR': 'FACTOR',
-            'ROP': 'REAL', 'SECONDARY_TLF': 'REAL'
+            'ROP': 'REAL', 'SECONDARY_TLF': 'REAL', 'PARTICIPANTID': 'TEXT'
         }
 
     def get_url(self, year, month):
